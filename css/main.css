@@ -21,6 +21,7 @@ body {
     padding: 40px;
     float: left;
     background-color: darkblue;
+    color: #fff;
 
 }
 .container > .right-column{
@@ -28,5 +29,14 @@ body {
     float: left;
     padding: 60px;
     background-color: #fff;
-
 }
+.main-title{
+}
+.bottom-link {
+    color: #fff8;
+}
+.bottom-link > .link{
+    color: #fff8;
+}
+.bottom-link > .link:hover{
+    color: #fff;
