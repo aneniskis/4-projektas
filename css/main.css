@@ -45,3 +45,6 @@ body {
 }
 .bottom-link > .link:hover{
     color: #fff;
+}
+.right-column a {}
+.right-column span{}
