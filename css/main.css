@@ -22,6 +22,10 @@ body {
     float: left;
     background-color: darkblue;
     color: #fff;
+    background-image: url(../img/hill.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
 
 }
 .container > .right-column{
@@ -31,6 +35,7 @@ body {
     background-color: #fff;
 }
 .main-title{
+    font-weight: normal;
 }
 .bottom-link {
     color: #fff8;
