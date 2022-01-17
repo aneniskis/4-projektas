@@ -8,6 +8,7 @@
 }
 .form > .form-row:last-child {
     margin-bottom: 0;
+    background-color: red;
 }
 
 .form > .form-row > label{
@@ -24,4 +25,32 @@
     border-bottom: 2px solid #ccc;
 }
 .form > .form-row > button{
+    background-color: #0065DB;
+    padding: 10px;
+    line-height: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: none;
+    border-radius: 15px;
+    font-weight: bolder;
+    color: white;
+    float: left;
+    background: linear-gradient(90deg, rgba(0,78,219,1) 20%, rgba(0,212,255,1) 100%);
+}
+.right-column a {
+    text-decoration: none;
+    padding: 10px;
+    padding-right: none ;
+    line-height: 10px;
+    float:left;
+    font-weight: bolder;
+    color: #3C509D;
+}
+.right-column span{
+    line-height: 10px;
+    padding-right: none;
+    padding: 10px;
+    color: grey;
+    margin-left: 20px;
+    float: left;
 }
