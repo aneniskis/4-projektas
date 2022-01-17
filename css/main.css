@@ -33,6 +33,7 @@ body {
     float: left;
     padding: 60px;
     background-color: #fff;
+    position: relative;
 }
 .main-title{
     font-weight: normal;
@@ -46,5 +47,17 @@ body {
 .bottom-link > .link:hover{
     color: #fff;
 }
-.right-column a {}
+.close {
+    background-color: transparent;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px;
+    transform: rotate(45deg);
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-size: 30px;
+
+}.right-column a {}
 .right-column span{}
