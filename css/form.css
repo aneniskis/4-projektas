@@ -8,7 +8,6 @@
 }
 .form > .form-row:last-child {
     margin-bottom: 0;
-    background-color: red;
 }
 
 .form > .form-row > label{

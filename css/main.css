@@ -1,3 +1,4 @@
+@import '../css/form.css';
 body,
 body * {
     margin: 0;
@@ -85,4 +86,36 @@ body {
     top: 0;
     right: 0;
     font-size: 30px;
+}
+@media (max-width:800px) {
+    .container {
+        width: 500px;
+        margin: 0 0;
+    }
+    
+}
+@media (max-width:600px) {
+    .container { 
+        width: 400px;
+        margin: 0 0;
+    }
+    
+}
+@media (max-width:440px) {
+    .container >.left-column{
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .container >.right-column{
+        padding-left: 20px;
+        padding-right: 20px;
+        
+    }
+    .container {
+        padding-left: 10px;
+        padding-right: px;
+        width: 100%;
+        margin: 0;
+
+    }
 }
